@@ -16,8 +16,12 @@ header.header img{
 
 
 section.top-page {
-    height: 80vh;
+    height: 25vh;
     padding: 25px;
+    background-color: black;
+}
+section.introduction{
+  color: white;
 }
 .big-title{
     color: white;
@@ -26,10 +30,11 @@ section.top-page {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 h1{
-    color: #961414;
-}
-h2{
-    color: #05ce0f;
+    color: #ffeb3b;
+    font: 200;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: dotted;
 }
 nav.nav{
     display: flex;
@@ -39,7 +44,7 @@ nav.nav{
     margin-left: 30px;
 }
 nav.nav li{
-    color: rgb(51, 13, 218);
+    color: yellow;
 
 }
 .competences {
@@ -186,6 +191,7 @@ footer {
   overflow: hidden;
 }
 .introduction{
-  background: url("./1081458.jpg");
-  background-size: cover;
+ background-color: #ffeb3b;}
+.p{
+  color: black;
 }
