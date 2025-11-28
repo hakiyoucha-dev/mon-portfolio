@@ -18,10 +18,11 @@ header.header img{
 section.top-page {
     height: 25vh;
     padding: 25px;
-    background-color: black;
+    background: linear-gradient(#ff7e5f, #feb47b);
 }
 section.introduction{
-  color: white;
+  color: black;
+  font-size: clamp(0.9rem, 2vw, 1.2rem)
 }
 .big-title{
     color: white;
@@ -29,19 +30,13 @@ section.introduction{
     padding: 20px 50px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
-    color: #ffeb3b;
-    font: 200;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-    text-decoration: dotted;
+header ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: #eee;
 }
-nav.nav{
-    display: flex;
-    justify-content: space-between;
-    list-style: none; 
-    width: 400px;
-    margin-left: 30px;
 }
 nav.nav li{
     color: yellow;
@@ -136,7 +131,7 @@ nav.nav li{
 .contact button {
   margin-top: 15px;
   background-color: #ff9800;
-  color: white;
+  color: black;
   border: none;
   padding: 10px 25px;
   border-radius: 5px;
@@ -149,7 +144,7 @@ nav.nav li{
   background-color: #ffa733;
 }
 footer {
-  background: linear-gradient(135deg, #1e3e5f, #0a2340, #167d50);
+  background: linear-gradient(#ff7e5f, #feb47b);
   text-align: center;
   padding: 15px;
   font-size: 0.9em;
@@ -191,7 +186,9 @@ footer {
   overflow: hidden;
 }
 .introduction{
- background-color: #ffeb3b;}
+ background: #fffaf5
+}
+
 .p{
-  color: black;
+  color: #222;
 }
